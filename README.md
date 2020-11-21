@@ -1,4 +1,4 @@
-# Poke Rust Edition
+# Poke KRust Edition
 
 ## Usage
 
