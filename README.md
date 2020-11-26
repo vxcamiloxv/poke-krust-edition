@@ -1,16 +1,9 @@
 # Poke KRust Edition
 
-## Usage
+This repo is about a experimentation around rust/kotlin 
+and indent to be a GraphQL API around Pokemon word.
 
-```bash
-cargo run
-```
+## Project structure
 
-## Testing
-
-Running tests
-
-```bash
-cargo test
-
-```
+- `prokerust` - GraphQL services with a fancy CLI built with Rust
+- `prokekotlin` - Model/DB service built with kotlin

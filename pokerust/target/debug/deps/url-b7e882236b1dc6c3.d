@@ -1,0 +1,13 @@
+/home/camilo/Documents/projects/personal/poke-rust-edition/target/debug/deps/url-b7e882236b1dc6c3.rmeta: /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/lib.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/host.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/origin.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/parser.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/path_segments.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/slicing.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/quirks.rs
+
+/home/camilo/Documents/projects/personal/poke-rust-edition/target/debug/deps/liburl-b7e882236b1dc6c3.rlib: /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/lib.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/host.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/origin.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/parser.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/path_segments.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/slicing.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/quirks.rs
+
+/home/camilo/Documents/projects/personal/poke-rust-edition/target/debug/deps/url-b7e882236b1dc6c3.d: /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/lib.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/host.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/origin.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/parser.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/path_segments.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/slicing.rs /home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/quirks.rs
+
+/home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/lib.rs:
+/home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/host.rs:
+/home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/origin.rs:
+/home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/parser.rs:
+/home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/path_segments.rs:
+/home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/slicing.rs:
+/home/camilo/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.2.0/src/quirks.rs:
