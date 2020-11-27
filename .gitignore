@@ -2,3 +2,13 @@
 
 # Added by cargo
 /pokerust/target
+
+
+### Kotlin ###
+.gradle
+.idea
+/pokekotlin/out
+/pokekotlin/build
+*.iml
+*.ipr
+*.iws
