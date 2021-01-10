@@ -12,26 +12,19 @@ import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 import org.slf4j.LoggerFactory
 
-@Suppress("unused") // Referenced in application.conf
+
+@Suppress("unused")
 @kotlin.jvm.JvmOverloads
 fun Application.module(testing: Boolean = false) {
     routing {
-        get("/") {
-            call.respondText("Pokemon with Kotlin + RUST")
-        }
+
+        this.rootGet()
+        this.rootPost()
+        this.rootGetWaterPokemon()
+
     }
 }
 
-fun main(args: Array<String>) {
-
-    embeddedServer(Netty, port = 8080) {
-        routing {
-            get("/") {
-                call.respondText("Pokemon with Kotlin + RUST")
-            }
-        }
-    }.start(true)
-
-}
+fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 
 
