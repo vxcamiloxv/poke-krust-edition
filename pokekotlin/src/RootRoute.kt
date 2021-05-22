@@ -1,12 +1,16 @@
 package org.pokekotlin
 
-import io.ktor.application.*
-import io.ktor.http.*
-import io.ktor.request.*
-import io.ktor.response.*
-import io.ktor.routing.*
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type.Text
+import io.ktor.application.call
+import io.ktor.http.ContentType
+import io.ktor.request.receive
+import io.ktor.response.respondText
+import io.ktor.routing.Routing
+import io.ktor.routing.get
+import io.ktor.routing.post
 
-    private val water_pokemon = "{\"pokemon\":{\"water\":[\"Squirtle\",\"Vaporeon\",\"Milotic\",\"Kyogre\",\"Tentacool\"]}}"
+
+private val water_pokemon = "{\"pokemon\":{\"water\":[\"Squirtle\",\"Vaporeon\",\"Milotic\",\"Kyogre\",\"Tentacool\"]}}"
 
 
     fun Routing.rootGet() {
@@ -18,7 +22,7 @@ import io.ktor.routing.*
     }
 
 
-    fun Routing.rootPost(){
+    fun Routing.rootPost() {
         post("/") {
             val post = call.receive<String>()
             call.respondText("Post request $post", ContentType.Text.Plain)
@@ -26,8 +30,8 @@ import io.ktor.routing.*
     }
 
 
-    fun Routing.rootGetWaterPokemon(){
-        get("/waterPokemon"){
+    fun Routing.rootGetWaterPokemon() {
+        get("/waterPokemon") {
             call.respondText(water_pokemon)
         }
     }
